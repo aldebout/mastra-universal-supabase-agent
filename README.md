@@ -31,7 +31,7 @@ Talk to your database like you'd talk to a data analyst - ask questions, get ins
 
 # Install dependencies for the example app
 cd ../todo-app-example
-npm install
+pnpm install
 
 # Start Supabase locally (optional)
 npx supabase start
@@ -41,7 +41,7 @@ cp .env.example .env
 # Fill in your Supabase credentials
 
 # Run the example app
-npm run dev
+pnpm run dev
 ```
 
 In another terminal:
